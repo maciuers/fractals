@@ -35,3 +35,4 @@ void magnet(float xmin, float xmax, float ymin, float ymax, int iteraciones)
      }
   }
 }
+}
