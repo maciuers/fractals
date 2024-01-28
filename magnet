@@ -1,4 +1,4 @@
-#include *P1*
+#include *P1.c*
 void magnet(float xmin, float xmax, float ymin, float ymax, int iteraciones)
 {
  float xi, yi, px, py;
