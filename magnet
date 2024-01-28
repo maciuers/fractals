@@ -9,7 +9,7 @@ void magnet(float xmin, float xmax, float ymin, float ymax, int iteraciones)
  for(p=0;p<xdots;p++)
  {
  for(q=0,q<ydots;q++)
-   {
+ {
    px=xmin+p*xi;
    py=ymin+q*yi;
    c.x=c.y=0;
@@ -31,8 +31,8 @@ void magnet(float xmin, float xmax, float ymin, float ymax, int iteraciones)
             {
             punto(p,ydots-1-q,k%(colores/2)+colores/2);
             break;
-       }
-     }
+            }
+          }
+   }
   }
-}
 }
