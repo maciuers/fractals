@@ -27,4 +27,12 @@ void magnet(float xmin, float xmax, float ymin, float ymax, int iteraciones)
             punto(p,ydots-1-q,k%(colores/2));
             break;
             }
-          if(distancia(c,uno)
+          if(distancia(c,uno)<0.00001)
+            {
+            punto(p,ydots-1-q,k%(colores/2)+colores/2);
+            break;
+       }
+     }
+  }
+}
+
