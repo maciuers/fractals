@@ -1,5 +1,5 @@
 void magnet(float xmin, float xmax, float ymin, float ymax, int iteraciones)
- {
+{
  float xi, yi, px, py;
  int p,q,k,r=10000;
  complejo c,num,deno,formula,uno;
@@ -23,7 +23,7 @@ void magnet(float xmin, float xmax, float ymin, float ymax, int iteraciones)
           formula=comp_div(num,deno);
           c=comp_mul(num,deno);
           if(modulo(c)>r)
-            (
+            {
             punto(p,ydots-1-q,k%(colores/2));
             break;
             }
@@ -35,4 +35,3 @@ void magnet(float xmin, float xmax, float ymin, float ymax, int iteraciones)
      }
   }
 }
-
