@@ -1,4 +1,4 @@
-void(float xo, float yo)
+void figura(float xo, float yo)
 {
     long i;
     int xp,yp,col=9;
